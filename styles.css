@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    /* Fundo preto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#lamp {
+    width: 100px;
+    height: 150px;
+    border-radius: 50% 50% 0 0;
+    /* Deixa a parte superior arredondada como uma lâmpada */
+    background-color: #333;
+    /* Cor apagada da lâmpada */
+    margin: 0 auto 20px auto;
+    transition: background-color 0.3s;
+    /* Animação de transição para acender/apagar */
+}
+
+.lamp-on {
+    background-color: green;
+    /* Cor verde quando a lâmpada estiver ligada */
+}
+
+#switch-btn {
+    background-color: white;
+    /* Interruptor branco */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#switch-btn:hover {
+    background-color: #ddd;
+    /* Cor ao passar o mouse sobre o botão */
+}
